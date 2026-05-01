@@ -1,0 +1,33 @@
+# ============================================================
+# DATATHON 2026 - THE GRIDBREAKER
+# Requirements.txt - Toàn bộ thư viện cần thiết
+# ============================================================
+
+# ── Cơ bản & Xử lý dữ liệu ──────────────────────────────────
+pandas>=1.5.0
+numpy>=1.23.0
+scipy>=1.9.0
+
+# ── Visualisation ──────────────────────────────────────────
+matplotlib>=3.5.0
+seaborn>=0.12.0
+plotly>=5.10.0
+kaleido>=0.2.1  # For saving Plotly charts as PNG
+
+# ── Machine Learning - Baseline ────────────────────────────
+scikit-learn>=1.1.0
+
+# ── Machine Learning - Advanced Models ─────────────────────
+lightgbm>=3.3.5
+catboost>=1.1.1
+prophet>=1.1.1  # Time series forecasting
+
+# ── Explainability ─────────────────────────────────────────
+shap>=0.41.0
+
+# ── Data Download (Optional - cho merge_master.ipynb) ──────
+kagglehub>=0.1.0
+
+# ── Utilities ──────────────────────────────────────────────
+pyarrow>=10.0.0  # For parquet support
+python-dateutil>=2.8.0

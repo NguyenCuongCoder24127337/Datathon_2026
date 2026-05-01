@@ -1,0 +1,1 @@
+Đây là thư mục để lưu các output từ 6 stage

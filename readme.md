@@ -125,7 +125,7 @@ push_code/
 
 ```
 
-### 📌 Giải thích chi tiết từng thư mục
+### Giải thích chi tiết từng thư mục
 
 **Phần 1 — Câu hỏi Trắc nghiệm (MCQ)**
 - 10 file Jupyter notebook `q1.ipynb` - `q10.ipynb`
@@ -152,9 +152,9 @@ push_code/
 
 ---
 
-## 🚀 Hướng dẫn Sử dụng
+##  Hướng dẫn Sử dụng
 
-### 📋 Bước 0: Cài đặt Môi trường
+###  Bước 0: Cài đặt Môi trường
 
 #### Yêu cầu
 - **Python 3.8+** (khuyến nghị 3.9 hoặc 3.10)
@@ -185,7 +185,7 @@ pip install -r requirements.txt
 python -c "import pandas, numpy, lightgbm, prophet, shap; print('✓ All libraries installed!')"
 ```
 
-### 🔴 PHẦN 3: Mô Hình Dự báo Doanh thu (BUILD MODEL)
+###  PHẦN 3: Mô Hình Dự báo Doanh thu (BUILD MODEL)
 
 **Mục tiêu**: Dự báo Revenue & COGS từ 01/01/2023 - 01/07/2024
 
@@ -202,7 +202,7 @@ Phan 3 Mo hinh Du bao Doanh thu/
 └── report/ ............................ Báo cáo & hình ảnh
 ```
 
-#### 🎯 Chạy 6 Stages tuần tự
+####  Chạy 6 Stages tuần tự
 
 **Stage 1: Xử lý Dữ liệu (Preprocessing)**
 ```bash
@@ -297,7 +297,7 @@ jupyter notebook "Phan 3 Mo hinh Du bao Doanh thu/stage6_submission.ipynb"
 # 6. Upload lên Kaggle
 ```
 
-#### 📊 Output cuối cùng (Stage 6)
+#### Output cuối cùng (Stage 6)
 ```
 ../submission.csv
 ├── Date (YYYY-MM-DD format)
@@ -314,7 +314,7 @@ Date,Revenue,COGS
 
 ---
 
-### 🟠 PHẦN 2: Trực quan hoá & Phân tích EDA
+###  PHẦN 2: Trực quan hoá & Phân tích EDA
 
 **Mục tiêu**: Tạo 16+ biểu đồ với insights kinh doanh
 
@@ -349,7 +349,7 @@ Date,Revenue,COGS
 
 ```
 
-#### 🎯 Chạy Phần 2
+####  Chạy Phần 2
 
 **Bước 0: Gen_charts_2 - Tạo Master Data (CHẠY TRƯỚC)**
 
@@ -410,13 +410,13 @@ python web_traffic_analysis.py
 # Output: Thêm HTML & PNG files
 ```
 
-#### 📊 Output Phần 2
+#### Output Phần 2
 - **Gen_charts_1/figure/**: 16 PNG files (matplotlib)
 - **Gen_charts_2/charts/**: 10+ HTML + PNG files (plotly)
 
 ---
 
-### 🟡 PHẦN 1: Câu hỏi Trắc nghiệm (MCQ)
+###  PHẦN 1: Câu hỏi Trắc nghiệm (MCQ)
 
 **Mục tiêu**: Trả lời 10 câu hỏi bằng phân tích dữ liệu
 
@@ -437,7 +437,7 @@ Phan 1 Cau hoi Trac nghiem/
     └── q10.ipynb .................... Q10: Payment by installments
 ```
 
-#### 🎯 Chạy từng câu hỏi
+####  Chạy từng câu hỏi
 
 ```bash
 # Mở Jupyter Notebook
@@ -458,7 +458,7 @@ code q1.ipynb
 # 4. Print câu trả lời ngoài cùng (A/B/C/D)
 ```
 
-#### 📝 Ví dụ Q1
+#### Ví dụ Q1
 ```python
 # Q1: Inter-order gap (trung vị ngày giữa 2 lần mua)
 
@@ -527,7 +527,7 @@ pip install kaleido>=0.2.1
 
 ---
 
-## ✅ Checklist Chạy Dự Án
+## Checklist Chạy Dự Án
 
 - [ ] Cài requirements.txt
 - [ ] **Phần 3**: Chạy 6 stages tuần tự
